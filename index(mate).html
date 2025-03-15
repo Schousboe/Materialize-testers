@@ -11,6 +11,10 @@
    a.btn {
     margin-top: 30%;
    }
+   input[type="submit"]{
+    width: 100%;
+    margin-top: 50px;
+   }
   </style>
  </head>
  <body class="red lighten-2">
@@ -20,9 +24,12 @@
   </div>
 
   <div class="modal" id="login">
-    <h4>Login form</h4><br>
+
+    <h5 class="modal-close">&#10005;</h5>
+
 
     <div class="modal-content center">
+      <h4>Login form</h4><br>
      <form action="#">
 
 
@@ -42,6 +49,8 @@
         <input type="checkbox" id="check" class="filled-in">       
         <label for="check">Remember me</label>
       </div><br>
+
+      <input type="submit" value="login" class="btn btn-large">
 
 
      </form>
